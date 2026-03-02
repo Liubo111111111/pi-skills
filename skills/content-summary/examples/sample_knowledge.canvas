@@ -1,0 +1,188 @@
+{
+  "nodes": [
+    {
+      "id": "group_extend_001",
+      "type": "group",
+      "x": -90,
+      "y": 790,
+      "width": 1180,
+      "height": 160,
+      "label": "延伸学习",
+      "color": "6"
+    },
+    {
+      "id": "source_link_001",
+      "type": "link",
+      "x": 325,
+      "y": 0,
+      "width": 350,
+      "height": 80,
+      "url": "https://x.com/dabit3/status/2011102650893300095"
+    },
+    {
+      "id": "core_topic_001",
+      "type": "text",
+      "x": 275,
+      "y": 130,
+      "width": 450,
+      "height": 160,
+      "text": "# Programmatic Tool Calling\n\nClaude 的新 beta 功能：自动编写代码调用工具，在沙箱中执行后返回结果。\n\n**核心价值**: 减少延迟 + 降低 token 消耗",
+      "color": "5"
+    },
+    {
+      "id": "point_1_001",
+      "type": "text",
+      "x": -40,
+      "y": 370,
+      "width": 320,
+      "height": 140,
+      "text": "## 自动代码生成\n\n模型自动编写调用工具的代码，无需人工编写或多轮对话协调。",
+      "color": "4"
+    },
+    {
+      "id": "point_2_001",
+      "type": "text",
+      "x": 340,
+      "y": 370,
+      "width": 320,
+      "height": 140,
+      "text": "## 沙箱执行\n\n代码在安全隔离的沙箱环境中运行，执行结果直接返回给模型。",
+      "color": "4"
+    },
+    {
+      "id": "point_3_001",
+      "type": "text",
+      "x": 720,
+      "y": 370,
+      "width": 320,
+      "height": 140,
+      "text": "## 性能优化\n\n- ⚡ 降低延迟\n- 💰 减少 token 消耗\n- 🔄 减少往返次数",
+      "color": "4"
+    },
+    {
+      "id": "evidence_1_001",
+      "type": "text",
+      "x": -40,
+      "y": 590,
+      "width": 320,
+      "height": 100,
+      "text": "**传统方式**\n\n模型 ↔ 工具多次往返通信",
+      "color": "3"
+    },
+    {
+      "id": "evidence_2_001",
+      "type": "text",
+      "x": 340,
+      "y": 590,
+      "width": 320,
+      "height": 100,
+      "text": "**新方式**\n\n模型生成代码 → 沙箱执行 → 结果返回",
+      "color": "3"
+    },
+    {
+      "id": "evidence_3_001",
+      "type": "text",
+      "x": 720,
+      "y": 590,
+      "width": 320,
+      "height": 100,
+      "text": "**状态**: Beta 测试中\n**来源**: @dabit3\n**日期**: 2026-01-13",
+      "color": "2"
+    },
+    {
+      "id": "extend_1_001",
+      "type": "text",
+      "x": -40,
+      "y": 840,
+      "width": 280,
+      "height": 80,
+      "text": "[[Claude API 文档]]",
+      "color": "6"
+    },
+    {
+      "id": "extend_2_001",
+      "type": "text",
+      "x": 300,
+      "y": 840,
+      "width": 280,
+      "height": 80,
+      "text": "[[AI Agent 架构]]",
+      "color": "6"
+    },
+    {
+      "id": "extend_3_001",
+      "type": "text",
+      "x": 640,
+      "y": 840,
+      "width": 280,
+      "height": 80,
+      "text": "[[LLM 性能优化]]",
+      "color": "6"
+    },
+    {
+      "id": "extend_4_001",
+      "type": "text",
+      "x": 980,
+      "y": 840,
+      "width": 160,
+      "height": 80,
+      "text": "[[Tool Use]]",
+      "color": "6"
+    }
+  ],
+  "edges": [
+    {
+      "id": "e_src_core_001",
+      "fromNode": "source_link_001",
+      "fromSide": "bottom",
+      "toNode": "core_topic_001",
+      "toSide": "top",
+      "color": "2"
+    },
+    {
+      "id": "e_core_p1_001",
+      "fromNode": "core_topic_001",
+      "fromSide": "bottom",
+      "toNode": "point_1_001",
+      "toSide": "top"
+    },
+    {
+      "id": "e_core_p2_001",
+      "fromNode": "core_topic_001",
+      "fromSide": "bottom",
+      "toNode": "point_2_001",
+      "toSide": "top"
+    },
+    {
+      "id": "e_core_p3_001",
+      "fromNode": "core_topic_001",
+      "fromSide": "bottom",
+      "toNode": "point_3_001",
+      "toSide": "top"
+    },
+    {
+      "id": "e_p1_ev1_001",
+      "fromNode": "point_1_001",
+      "fromSide": "bottom",
+      "toNode": "evidence_1_001",
+      "toSide": "top",
+      "label": "对比"
+    },
+    {
+      "id": "e_p2_ev2_001",
+      "fromNode": "point_2_001",
+      "fromSide": "bottom",
+      "toNode": "evidence_2_001",
+      "toSide": "top",
+      "label": "流程"
+    },
+    {
+      "id": "e_p3_ev3_001",
+      "fromNode": "point_3_001",
+      "fromSide": "bottom",
+      "toNode": "evidence_3_001",
+      "toSide": "top",
+      "label": "元信息"
+    }
+  ]
+}

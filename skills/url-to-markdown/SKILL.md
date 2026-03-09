@@ -1,6 +1,6 @@
 ---
 name: url-to-markdown
-description: "网页内容提取并转换为 Markdown。当用户需要：(1) 提取 X/Twitter 文章或推文，(2) 提取 ChatGPT/Gemini/Grok 对话，(3) 将任意网页转为 Markdown，(4) 调试网页结构进行内容提取"
+description: "提取网页正文并转换为 Markdown。当用户想提取 X/Twitter 推文、抓取 ChatGPT/Gemini/Grok 对话、把文章页面转成 Markdown、先抓链接正文再做总结或归档时使用；不适用于仅需打开网页浏览、普通搜索或简单页面查看。"
 allowed-tools: Bash, mcp__playwright__browser_navigate, mcp__playwright__browser_wait_for, mcp__playwright__browser_snapshot, mcp__playwright__browser_evaluate, mcp__playwright__browser_console_messages
 ---
 

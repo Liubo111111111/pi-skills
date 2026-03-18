@@ -1,0 +1,7 @@
+interface:
+  display_name: "OpenClaw No Reply Fix"
+  short_description: "Diagnose OpenClaw bots that receive messages but do not reply."
+  default_prompt: "Use $openclaw-no-reply-fix to diagnose why an OpenClaw bot is not replying."
+
+policy:
+  allow_implicit_invocation: true

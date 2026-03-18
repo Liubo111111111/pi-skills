@@ -1,0 +1,4 @@
+interface:
+  display_name: "OpenClaw Dual Feishu Bots"
+  short_description: "Deploy two isolated Feishu bots with separate profiles"
+  default_prompt: "Set up two fully isolated Feishu bots in OpenClaw with separate profiles, workspaces, ports, and services"

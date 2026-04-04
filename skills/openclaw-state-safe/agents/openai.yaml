@@ -1,0 +1,4 @@
+interface:
+  display_name: "OpenClaw State Safe"
+  short_description: "核验 OpenClaw 版本、模型、通道、bot 与配置状态"
+  default_prompt: "Use $openclaw-state-safe to verify OpenClaw version, models, channels, services, and bot health before answering or changing config."

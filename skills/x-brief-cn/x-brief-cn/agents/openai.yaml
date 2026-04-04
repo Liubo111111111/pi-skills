@@ -1,0 +1,4 @@
+interface:
+  display_name: "X Brief CN"
+  short_description: "X/Twitter 链接提取、失败重试与中文快报总结技能"
+  default_prompt: "Use $x-brief-cn to extract an X/Twitter link, retry blocked pages, and return a concise Chinese briefing with key points."

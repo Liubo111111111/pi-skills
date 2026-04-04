@@ -1,0 +1,4 @@
+interface:
+  display_name: "Summary to Notion"
+  short_description: "把摘要、快报、网页总结同步到 Notion 页面或数据库的可复用技能"
+  default_prompt: "Use $summary-to-notion to sync a finished summary or briefing into a Notion page or database using environment variables."
